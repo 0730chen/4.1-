@@ -1,0 +1,161 @@
+html {
+    	height:100%;
+    	width:100%;
+    }
+	body {
+		margin:0;
+		padding:0;
+		width:100%;
+    	height:100%;
+    	
+	}
+	.first{
+		width:100%;
+		height:100%;
+		background:url(../images/bg.jpg) no-repeat center center;
+    	background-size:100% 100%;
+    	background-attachment: fixed;
+    	display: none;
+	}
+	.title {
+		width:4.56rem;
+		height:2.42rem;
+		background:url(../images/title.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-3.8rem;
+		margin-left:-2.18rem;
+		z-index: 1;
+	}
+	.fool2 {
+		width:1.3rem;
+		height:1.4rem;
+		background:url(../images/fool2.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top: -4.6rem;
+		margin-left: 2rem;
+	}
+	.box {
+		width:3.3rem;
+		height:4.63rem;
+		background:url(../images/box.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:1.52rem;
+		margin-left:-1.4rem;
+		z-index: 2;
+	}
+	.box2{
+		width:3.3rem;
+		height:4.63rem;
+		background:url(../images/box2.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:1.52rem;
+		margin-left:-1.4rem;
+		
+	}
+	.fool{
+		width:3.3rem;
+		height:6.63rem;
+		background:url(../images/fool.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-0.9rem;
+		margin-left:-1.7rem;
+		animation-duration:1.5s;
+	
+	}
+	.fool3{
+		width:2rem;
+		height:2.63rem;
+		background:url(../images/foo13.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:2.5rem;
+		margin-left:-3.79rem;
+	}
+	.fool4{
+		width:1.5rem;
+		height:2.8rem;
+		background:url(../images/fool4.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:2.4rem;
+		margin-left:2.3rem;
+	}
+	.test{
+		width:1.9rem;
+		height:0.6rem;
+		background:url(../images/test.png) no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-4.35rem;
+		margin-left:-1rem;
+		z-index: 1;
+		animation-duration: 1s;
+	}
+	.last{
+		width:100%;
+		height:100%;
+		position:relative;
+		background:url(../images/last1.jpg) no-repeat center center;
+    	background-size:100% 100%;
+    	background-attachment: fixed;
+    	
+	}
+	
+	@media only screen and (device-width: 375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) {
+    .test{
+    	width:2rem;
+    	height:1rem;
+    	margin-top:-5rem;
+    	margin-left: -1rem;
+    }
+    .fool4{
+    	margin-top: 3.5rem;
+    	margin-left:2.6rem;
+    }
+    .fool3{
+    	margin-top:3.5rem;
+    	margin-left:-4.3rem;
+    }
+    .box{
+    	margin-top: 2.52rem;
+
+    }
+    .box2{
+    	margin-top: 2.52rem;
+
+    }
+    .fool{
+    	margin-top: 0.1rem;
+    }
+    .title{
+    	width:5.56rem;
+    	height:3.42rem;
+    	margin-top: -3.8rem;
+    	margin-left:-2.5rem;
+    }
+    .fool2{
+    	margin-top: -4.3rem;
+    	margin-left: 2.8rem;
+    }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" viewport-fit=cover>
+<meta content=”telephone=no” name=”format-detection” />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <style type="text/css" media="screen">
+      
+        .xuanze1 {
+        	position:absolute;
+        	top:50%;
+        	left:50%;
+        	margin-left: -179px;
+        	margin-top: -200px;
+        	width:357px;
+        	height:181px;
+        	border:1px solid #008800;
+
+
+
+        	
+        }
+        .xuanze2 {
+        	position:absolute;
+        	top:50%;
+        	left:50%;
+        	margin-left: -179px;
+        	margin-top: -200px;
+        	width:357px;
+        	height:181px;
+        	border:1px solid #008800;
+        	display:none;
+
+
+        	
+        }
+        .xuanze3 {
+        	position:absolute;
+        	top:50%;
+        	left:50%;
+        	margin-left: -179px;
+        	margin-top: -200px;
+        	width:357px;
+        	height:181px;
+        	border:1px solid #008800;
+        	display:none;
+
+
+        	
+        }
+        #t1 {
+        	position: absolute;
+        	top:50%;
+        	left:50%;
+        	margin-top: 53px;
+        	margin-left: -180px
+        }
+        #t2 {
+        	position: absolute;
+        	top:50%;
+        	left:50%;
+        	margin-top: 53px;
+        	margin-left: 41px;
+        	font-family: xingkai;
+        	
+        }
+        button {
+        	font-family: xingkai;
+        }
+        @font-face {
+        	font-family: xingkai;
+        	src:url('ziti/simhei.ttf');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="xuanze1">
+    	<p>1.如果你的朋友等等</p>
+    	<button type="button" value="A" id = "t1">A.我会打死他</button>
+    	<button type="button" value="B" id = 't2'>B.我会选择原谅他</button>
+    	
+    </div>
+    <div class="xuanze2">
+    	<p>2.如果我是你的话</p>
+    	<button type="button" value="A" id = 't3'>A.我会过愚人节</button>
+    	<button type="button" value="B" id = 't4'>B.我不会过愚人节</button>
+    </div>
+    <div class="xuanze3">
+    	<p>3.如果我是你的话</p>
+    	<button type="button" value="A" id = "t5">A.我会整蛊他</button>
+    	<button type="button" value="B" id = 't6'>B.我会开怀大笑</button>
+    </div>
+
+</div>
+</body>
+<script type="text/javascript">
+	
+</script>
+<script type="text/javascript" src="js/zepto.js">
+	Zepto(function($){
+		alert('ready to Zepto')
+	})
+
+
+</script>
+<script type="text/javascript">
+	$('#t1').click(function(e){
+        $('.xuanze1').toggle()
+        $('.xuanze2').toggle()
+    });
+
+    $('#t3').click(function(a){
+        $('.xuanze3').toggle()
+        $('.xuanze2').toggle()
+    });
+</script>
+</html>
